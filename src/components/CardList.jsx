@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 
 const CardList = ({data}) => {
 
-const limit = 10;
+const limit = 11;
 const defaultDataset = data.slice(0, limit);
 const [offset, setOffset] = useState(0);
 const [products, setProducts] = useState(defaultDataset);
